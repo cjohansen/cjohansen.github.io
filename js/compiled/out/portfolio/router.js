@@ -40,37 +40,37 @@ return cljs.core.keyword.call(null,k);
  *   value (e.g. `...&key&other-key`) will be parsed with `true` as the value.
  */
 portfolio.router.parse_query_params = (function portfolio$router$parse_query_params(query_string){
-var G__15908 = clojure.string.split.call(null,query_string,/&/);
-var G__15908__$1 = (((G__15908 == null))?null:cljs.core.remove.call(null,cljs.core.empty_QMARK_,G__15908));
-var G__15908__$2 = (((G__15908__$1 == null))?null:cljs.core.seq.call(null,G__15908__$1));
-var G__15908__$3 = (((G__15908__$2 == null))?null:cljs.core.map.call(null,(function (s){
+var G__12168 = clojure.string.split.call(null,query_string,/&/);
+var G__12168__$1 = (((G__12168 == null))?null:cljs.core.remove.call(null,cljs.core.empty_QMARK_,G__12168));
+var G__12168__$2 = (((G__12168__$1 == null))?null:cljs.core.seq.call(null,G__12168__$1));
+var G__12168__$3 = (((G__12168__$2 == null))?null:cljs.core.map.call(null,(function (s){
 if(cljs.core.truth_(cljs.core.re_find.call(null,/=/,s))){
-var vec__15909 = clojure.string.split.call(null,s,/=/);
-var seq__15910 = cljs.core.seq.call(null,vec__15909);
-var first__15911 = cljs.core.first.call(null,seq__15910);
-var seq__15910__$1 = cljs.core.next.call(null,seq__15910);
-var k = first__15911;
-var v = seq__15910__$1;
+var vec__12169 = clojure.string.split.call(null,s,/=/);
+var seq__12170 = cljs.core.seq.call(null,vec__12169);
+var first__12171 = cljs.core.first.call(null,seq__12170);
+var seq__12170__$1 = cljs.core.next.call(null,seq__12170);
+var k = first__12171;
+var v = seq__12170__$1;
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [portfolio.router.parse_key.call(null,k),portfolio.router.parse_qs_val.call(null,clojure.string.join.call(null,"=",v))], null);
 } else {
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [portfolio.router.parse_key.call(null,s),true], null);
 }
-}),G__15908__$2));
-if((G__15908__$3 == null)){
+}),G__12168__$2));
+if((G__12168__$3 == null)){
 return null;
 } else {
-return cljs.core.into.call(null,cljs.core.PersistentArrayMap.EMPTY,G__15908__$3);
+return cljs.core.into.call(null,cljs.core.PersistentArrayMap.EMPTY,G__12168__$3);
 }
 });
 portfolio.router.get_location = (function portfolio$router$get_location(url){
-var vec__15912 = clojure.string.split.call(null,url,/\?/);
-var path = cljs.core.nth.call(null,vec__15912,(0),null);
-var query = cljs.core.nth.call(null,vec__15912,(1),null);
-var G__15915 = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"path","path",-188191168),path], null);
+var vec__12172 = clojure.string.split.call(null,url,/\?/);
+var path = cljs.core.nth.call(null,vec__12172,(0),null);
+var query = cljs.core.nth.call(null,vec__12172,(1),null);
+var G__12175 = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"path","path",-188191168),path], null);
 if(typeof query === 'string'){
-return cljs.core.assoc.call(null,G__15915,new cljs.core.Keyword(null,"query-params","query-params",900640534),portfolio.router.parse_query_params.call(null,query));
+return cljs.core.assoc.call(null,G__12175,new cljs.core.Keyword(null,"query-params","query-params",900640534),portfolio.router.parse_query_params.call(null,query));
 } else {
-return G__15915;
+return G__12175;
 }
 });
 portfolio.router.get_current_url = (function portfolio$router$get_current_url(){
@@ -109,10 +109,10 @@ portfolio.router.encode_query_params = (function portfolio$router$encode_query_p
 if(cljs.core.empty_QMARK_.call(null,params)){
 return "";
 } else {
-return clojure.string.join.call(null,"&",cljs.core.map.call(null,(function (p__15916){
-var vec__15917 = p__15916;
-var k = cljs.core.nth.call(null,vec__15917,(0),null);
-var v = cljs.core.nth.call(null,vec__15917,(1),null);
+return clojure.string.join.call(null,"&",cljs.core.map.call(null,(function (p__12176){
+var vec__12177 = p__12176;
+var k = cljs.core.nth.call(null,vec__12177,(0),null);
+var v = cljs.core.nth.call(null,vec__12177,(1),null);
 var k__$1 = portfolio.router.stringify_key.call(null,k);
 if(v === true){
 return k__$1;

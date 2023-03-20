@@ -7,7 +7,7 @@ goog.require('cljs.core');
  */
 portfolio.views.canvas.protocols.ICanvasToolbarButtonData = function(){};
 
-var portfolio$views$canvas$protocols$ICanvasToolbarButtonData$prepare_toolbar_button$dyn_12778 = (function (self,state,opt){
+var portfolio$views$canvas$protocols$ICanvasToolbarButtonData$prepare_toolbar_button$dyn_11706 = (function (self,state,opt){
 var x__5393__auto__ = (((self == null))?null:self);
 var m__5394__auto__ = (portfolio.views.canvas.protocols.prepare_toolbar_button[goog.typeOf(x__5393__auto__)]);
 if((!((m__5394__auto__ == null)))){
@@ -30,7 +30,7 @@ return meta_impl__5395__auto__.call(null,self,state,opt);
 if((((!((self == null)))) && ((!((self.portfolio$views$canvas$protocols$ICanvasToolbarButtonData$prepare_toolbar_button$arity$3 == null)))))){
 return self.portfolio$views$canvas$protocols$ICanvasToolbarButtonData$prepare_toolbar_button$arity$3(self,state,opt);
 } else {
-return portfolio$views$canvas$protocols$ICanvasToolbarButtonData$prepare_toolbar_button$dyn_12778.call(null,self,state,opt);
+return portfolio$views$canvas$protocols$ICanvasToolbarButtonData$prepare_toolbar_button$dyn_11706.call(null,self,state,opt);
 }
 }
 });
@@ -41,7 +41,7 @@ return portfolio$views$canvas$protocols$ICanvasToolbarButtonData$prepare_toolbar
  */
 portfolio.views.canvas.protocols.ICanvasToolbarButtonView = function(){};
 
-var portfolio$views$canvas$protocols$ICanvasToolbarButtonView$render_toolbar_button$dyn_12779 = (function (data){
+var portfolio$views$canvas$protocols$ICanvasToolbarButtonView$render_toolbar_button$dyn_11707 = (function (data){
 var x__5393__auto__ = (((data == null))?null:data);
 var m__5394__auto__ = (portfolio.views.canvas.protocols.render_toolbar_button[goog.typeOf(x__5393__auto__)]);
 if((!((m__5394__auto__ == null)))){
@@ -64,7 +64,7 @@ return meta_impl__5395__auto__.call(null,data);
 if((((!((data == null)))) && ((!((data.portfolio$views$canvas$protocols$ICanvasToolbarButtonView$render_toolbar_button$arity$1 == null)))))){
 return data.portfolio$views$canvas$protocols$ICanvasToolbarButtonView$render_toolbar_button$arity$1(data);
 } else {
-return portfolio$views$canvas$protocols$ICanvasToolbarButtonView$render_toolbar_button$dyn_12779.call(null,data);
+return portfolio$views$canvas$protocols$ICanvasToolbarButtonView$render_toolbar_button$dyn_11707.call(null,data);
 }
 }
 });
@@ -75,7 +75,7 @@ return portfolio$views$canvas$protocols$ICanvasToolbarButtonView$render_toolbar_
  */
 portfolio.views.canvas.protocols.ICanvasTool = function(){};
 
-var portfolio$views$canvas$protocols$ICanvasTool$prepare_canvas$dyn_12780 = (function (self,el,opt){
+var portfolio$views$canvas$protocols$ICanvasTool$prepare_canvas$dyn_11708 = (function (self,el,opt){
 var x__5393__auto__ = (((self == null))?null:self);
 var m__5394__auto__ = (portfolio.views.canvas.protocols.prepare_canvas[goog.typeOf(x__5393__auto__)]);
 if((!((m__5394__auto__ == null)))){
@@ -98,12 +98,12 @@ return meta_impl__5395__auto__.call(null,self,el,opt);
 if((((!((self == null)))) && ((!((self.portfolio$views$canvas$protocols$ICanvasTool$prepare_canvas$arity$3 == null)))))){
 return self.portfolio$views$canvas$protocols$ICanvasTool$prepare_canvas$arity$3(self,el,opt);
 } else {
-return portfolio$views$canvas$protocols$ICanvasTool$prepare_canvas$dyn_12780.call(null,self,el,opt);
+return portfolio$views$canvas$protocols$ICanvasTool$prepare_canvas$dyn_11708.call(null,self,el,opt);
 }
 }
 });
 
-var portfolio$views$canvas$protocols$ICanvasTool$finalize_canvas$dyn_12781 = (function (self,el,opt){
+var portfolio$views$canvas$protocols$ICanvasTool$finalize_canvas$dyn_11709 = (function (self,el,opt){
 var x__5393__auto__ = (((self == null))?null:self);
 var m__5394__auto__ = (portfolio.views.canvas.protocols.finalize_canvas[goog.typeOf(x__5393__auto__)]);
 if((!((m__5394__auto__ == null)))){
@@ -126,7 +126,7 @@ return meta_impl__5395__auto__.call(null,self,el,opt);
 if((((!((self == null)))) && ((!((self.portfolio$views$canvas$protocols$ICanvasTool$finalize_canvas$arity$3 == null)))))){
 return self.portfolio$views$canvas$protocols$ICanvasTool$finalize_canvas$arity$3(self,el,opt);
 } else {
-return portfolio$views$canvas$protocols$ICanvasTool$finalize_canvas$dyn_12781.call(null,self,el,opt);
+return portfolio$views$canvas$protocols$ICanvasTool$finalize_canvas$dyn_11709.call(null,self,el,opt);
 }
 }
 });
@@ -137,7 +137,7 @@ return portfolio$views$canvas$protocols$ICanvasTool$finalize_canvas$dyn_12781.ca
  */
 portfolio.views.canvas.protocols.ICanvasToolValue = function(){};
 
-var portfolio$views$canvas$protocols$ICanvasToolValue$get_tool_value$dyn_12782 = (function (self,state,canvas_id){
+var portfolio$views$canvas$protocols$ICanvasToolValue$get_tool_value$dyn_11710 = (function (self,state,canvas_id){
 var x__5393__auto__ = (((self == null))?null:self);
 var m__5394__auto__ = (portfolio.views.canvas.protocols.get_tool_value[goog.typeOf(x__5393__auto__)]);
 if((!((m__5394__auto__ == null)))){
@@ -160,7 +160,7 @@ return meta_impl__5395__auto__.call(null,self,state,canvas_id);
 if((((!((self == null)))) && ((!((self.portfolio$views$canvas$protocols$ICanvasToolValue$get_tool_value$arity$3 == null)))))){
 return self.portfolio$views$canvas$protocols$ICanvasToolValue$get_tool_value$arity$3(self,state,canvas_id);
 } else {
-return portfolio$views$canvas$protocols$ICanvasToolValue$get_tool_value$dyn_12782.call(null,self,state,canvas_id);
+return portfolio$views$canvas$protocols$ICanvasToolValue$get_tool_value$dyn_11710.call(null,self,state,canvas_id);
 }
 }
 });
@@ -171,7 +171,7 @@ return portfolio$views$canvas$protocols$ICanvasToolValue$get_tool_value$dyn_1278
  */
 portfolio.views.canvas.protocols.ICanvasPanelAddon = function(){};
 
-var portfolio$views$canvas$protocols$ICanvasPanelAddon$prepare_panel_content$dyn_12783 = (function (panel,state,scene){
+var portfolio$views$canvas$protocols$ICanvasPanelAddon$prepare_panel_content$dyn_11711 = (function (panel,state,scene){
 var x__5393__auto__ = (((panel == null))?null:panel);
 var m__5394__auto__ = (portfolio.views.canvas.protocols.prepare_panel_content[goog.typeOf(x__5393__auto__)]);
 if((!((m__5394__auto__ == null)))){
@@ -194,7 +194,7 @@ return meta_impl__5395__auto__.call(null,panel,state,scene);
 if((((!((panel == null)))) && ((!((panel.portfolio$views$canvas$protocols$ICanvasPanelAddon$prepare_panel_content$arity$3 == null)))))){
 return panel.portfolio$views$canvas$protocols$ICanvasPanelAddon$prepare_panel_content$arity$3(panel,state,scene);
 } else {
-return portfolio$views$canvas$protocols$ICanvasPanelAddon$prepare_panel_content$dyn_12783.call(null,panel,state,scene);
+return portfolio$views$canvas$protocols$ICanvasPanelAddon$prepare_panel_content$dyn_11711.call(null,panel,state,scene);
 }
 }
 });

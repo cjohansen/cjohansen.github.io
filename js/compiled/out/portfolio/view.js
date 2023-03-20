@@ -7,7 +7,7 @@ goog.require('cljs.core');
  */
 portfolio.view.IViewData = function(){};
 
-var portfolio$view$IViewData$prepare_data$dyn_15398 = (function (view,state,location){
+var portfolio$view$IViewData$prepare_data$dyn_11739 = (function (view,state,location){
 var x__5393__auto__ = (((view == null))?null:view);
 var m__5394__auto__ = (portfolio.view.prepare_data[goog.typeOf(x__5393__auto__)]);
 if((!((m__5394__auto__ == null)))){
@@ -30,7 +30,7 @@ return meta_impl__5395__auto__.call(null,view,state,location);
 if((((!((view == null)))) && ((!((view.portfolio$view$IViewData$prepare_data$arity$3 == null)))))){
 return view.portfolio$view$IViewData$prepare_data$arity$3(view,state,location);
 } else {
-return portfolio$view$IViewData$prepare_data$dyn_15398.call(null,view,state,location);
+return portfolio$view$IViewData$prepare_data$dyn_11739.call(null,view,state,location);
 }
 }
 });
@@ -41,7 +41,7 @@ return portfolio$view$IViewData$prepare_data$dyn_15398.call(null,view,state,loca
  */
 portfolio.view.IView = function(){};
 
-var portfolio$view$IView$render_view$dyn_15399 = (function (self){
+var portfolio$view$IView$render_view$dyn_11740 = (function (self){
 var x__5393__auto__ = (((self == null))?null:self);
 var m__5394__auto__ = (portfolio.view.render_view[goog.typeOf(x__5393__auto__)]);
 if((!((m__5394__auto__ == null)))){
@@ -64,7 +64,7 @@ return meta_impl__5395__auto__.call(null,self);
 if((((!((self == null)))) && ((!((self.portfolio$view$IView$render_view$arity$1 == null)))))){
 return self.portfolio$view$IView$render_view$arity$1(self);
 } else {
-return portfolio$view$IView$render_view$dyn_15399.call(null,self);
+return portfolio$view$IView$render_view$dyn_11740.call(null,self);
 }
 }
 });

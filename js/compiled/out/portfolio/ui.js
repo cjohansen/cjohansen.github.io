@@ -25,14 +25,14 @@ return new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMP
 portfolio.ui.eventually_execute = portfolio.homeless.debounce.call(null,portfolio.actions.execute_action_BANG_,(250));
 portfolio.ui.start_BANG_ = (function portfolio$ui$start_BANG_(var_args){
 var args__5775__auto__ = [];
-var len__5769__auto___16637 = arguments.length;
-var i__5770__auto___16638 = (0);
+var len__5769__auto___12898 = arguments.length;
+var i__5770__auto___12899 = (0);
 while(true){
-if((i__5770__auto___16638 < len__5769__auto___16637)){
-args__5775__auto__.push((arguments[i__5770__auto___16638]));
+if((i__5770__auto___12899 < len__5769__auto___12898)){
+args__5775__auto__.push((arguments[i__5770__auto___12899]));
 
-var G__16639 = (i__5770__auto___16638 + (1));
-i__5770__auto___16638 = G__16639;
+var G__12900 = (i__5770__auto___12899 + (1));
+i__5770__auto___12899 = G__12900;
 continue;
 } else {
 }
@@ -43,14 +43,14 @@ var argseq__5776__auto__ = ((((0) < args__5775__auto__.length))?(new cljs.core.I
 return portfolio.ui.start_BANG_.cljs$core$IFn$_invoke$arity$variadic(argseq__5776__auto__);
 });
 
-(portfolio.ui.start_BANG_.cljs$core$IFn$_invoke$arity$variadic = (function (p__16632){
-var vec__16633 = p__16632;
-var map__16636 = cljs.core.nth.call(null,vec__16633,(0),null);
-var map__16636__$1 = cljs.core.__destructure_map.call(null,map__16636);
-var on_render = cljs.core.get.call(null,map__16636__$1,new cljs.core.Keyword(null,"on-render","on-render",2096729391));
-var config = cljs.core.get.call(null,map__16636__$1,new cljs.core.Keyword(null,"config","config",994861415));
-var canvas_tools = cljs.core.get.call(null,map__16636__$1,new cljs.core.Keyword(null,"canvas-tools","canvas-tools",-1946158067));
-var extra_canvas_tools = cljs.core.get.call(null,map__16636__$1,new cljs.core.Keyword(null,"extra-canvas-tools","extra-canvas-tools",1666309267));
+(portfolio.ui.start_BANG_.cljs$core$IFn$_invoke$arity$variadic = (function (p__12893){
+var vec__12894 = p__12893;
+var map__12897 = cljs.core.nth.call(null,vec__12894,(0),null);
+var map__12897__$1 = cljs.core.__destructure_map.call(null,map__12897);
+var on_render = cljs.core.get.call(null,map__12897__$1,new cljs.core.Keyword(null,"on-render","on-render",2096729391));
+var config = cljs.core.get.call(null,map__12897__$1,new cljs.core.Keyword(null,"config","config",994861415));
+var canvas_tools = cljs.core.get.call(null,map__12897__$1,new cljs.core.Keyword(null,"canvas-tools","canvas-tools",-1946158067));
+var extra_canvas_tools = cljs.core.get.call(null,map__12897__$1,new cljs.core.Keyword(null,"extra-canvas-tools","extra-canvas-tools",1666309267));
 cljs.core.swap_BANG_.call(null,portfolio.ui.app,cljs.core.merge,portfolio.ui.create_app.call(null,config,canvas_tools,extra_canvas_tools));
 
 cljs.core.add_watch.call(null,portfolio.data.scenes,new cljs.core.Keyword("portfolio.ui","app","portfolio.ui/app",355044435),(function (_,___$1,___$2,scenes){
@@ -73,8 +73,8 @@ return portfolio.client.start_app.call(null,portfolio.ui.app,new cljs.core.Persi
 (portfolio.ui.start_BANG_.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(portfolio.ui.start_BANG_.cljs$lang$applyTo = (function (seq16631){
+(portfolio.ui.start_BANG_.cljs$lang$applyTo = (function (seq12892){
 var self__5755__auto__ = this;
-return self__5755__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq16631));
+return self__5755__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq12892));
 }));
 
