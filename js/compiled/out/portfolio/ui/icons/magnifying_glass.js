@@ -1,0 +1,6 @@
+// Compiled by ClojureScript 1.11.60 {:optimizations :simple}
+goog.provide('portfolio.ui.icons.magnifying_glass');
+goog.require('cljs.core');
+goog.require('portfolio.ui.icon');
+var sym__15500__auto___15546 = cljs.core.symbol.call(null,"portfolio.ui.icons.magnifying-glass/icon");
+portfolio.ui.icons.magnifying_glass.icon = cljs.core.with_meta.call(null,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"svg","svg",856789142),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"fill","fill",883462889),"currentColor",new cljs.core.Keyword(null,"viewBox","viewBox",-469489477),"0 0 256 256"], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"path","path",-188191168),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"d","d",1972142424),"M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"], null)], null)], null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"ns","ns",441598760),sym__15500__auto___15546,new cljs.core.Symbol("portfolio.ui.code","format-code","portfolio.ui.code/format-code",1873617624,null),cljs.core.constantly.call(null,sym__15500__auto___15546)], null));

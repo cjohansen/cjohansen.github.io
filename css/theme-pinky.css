@@ -37,21 +37,33 @@
   --subtle-border: var(--mine-shaft);
 }
 
-.dark-mode {
+.dark {
   --bg: var(--mine-shaft);
   --fg: var(--mercury);
   --contrast-bg: var(--woodsmoke);
   --input-bg: var(--cod-gris);
   --input-fg: var(--scorpion);
+  --input-disabled-bg: var(--cod-gris);
+  --input-disabled-fg: var(--mine-shaft-light);
   --input-placeholder: var(--scorpion);
   --input-focus: var(--mercury);
+  --error: var(--brick-rojo);
+  --bellow-bg: var(--bg);
+  --bellow-zebra-bg: var(--mine-shaft-light);
+  --bellow-border: var(--scorpion);
 }
 
-.light-mode {
+.light {
   --fg: var(--mine-shaft);
   --contrast-bg: var(--mercury);
-  --input-bg: #fff;
+  --input-bg: #f8f8f8;
   --input-fg: var(--scorpion);
+  --input-disabled-bg: var(--mercury);
+  --input-disabled-fg: #999;
   --input-placeholder: var(--scorpion);
   --input-focus: var(--woodsmoke);
+  --error: var(--mexican-rojo);
+  --bellow-bg: var(--bg);
+  --bellow-zebra-bg: #f8f8f8;
+  --bellow-border: var(--silver-chalice);
 }

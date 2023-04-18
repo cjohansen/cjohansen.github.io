@@ -7,7 +7,7 @@ goog.require('cljs.core');
  */
 portfolio.adapter.IComponentLibrary = function(){};
 
-var portfolio$adapter$IComponentLibrary$render_component$dyn_11732 = (function (component,el){
+var portfolio$adapter$IComponentLibrary$render_component$dyn_15376 = (function (component,el){
 var x__5393__auto__ = (((component == null))?null:component);
 var m__5394__auto__ = (portfolio.adapter.render_component[goog.typeOf(x__5393__auto__)]);
 if((!((m__5394__auto__ == null)))){
@@ -30,7 +30,7 @@ return meta_impl__5395__auto__.call(null,component,el);
 if((((!((component == null)))) && ((!((component.portfolio$adapter$IComponentLibrary$render_component$arity$2 == null)))))){
 return component.portfolio$adapter$IComponentLibrary$render_component$arity$2(component,el);
 } else {
-return portfolio$adapter$IComponentLibrary$render_component$dyn_11732.call(null,component,el);
+return portfolio$adapter$IComponentLibrary$render_component$dyn_15376.call(null,component,el);
 }
 }
 });
